@@ -13,7 +13,10 @@ export const verifyuser = async (userName,email) => {
         userName: userName,
         email: email
         },
-        headers: new Headers({ 'Access-Control-Allow-Origin': '*' })
+        headers: new Headers({
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': '*'
+        })
         }).then(res => {
             console.log(res);
         })
@@ -26,8 +29,3 @@ export const verifyuser = async (userName,email) => {
     // res.setHeader('Access-Control-Allow-Origin', '*')
     // .then(result=>console.log(result))
 }
-// // get feed
-// export const fetchPosts = async (userId) => {
-//     return await axios.get(`${api_url}/posts/feed/${userId}`,{userId})
-//     .then(result=>result.data)
-// }
