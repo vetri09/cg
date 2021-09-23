@@ -1,0 +1,50 @@
+.welcome{
+    color: var(--bluelight);
+    background-color: var(--bluedark);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.welcomeHead {
+    font-weight: 100;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.welcomeConnect {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.welcomeText {
+    color: var(--bluelight);
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.whiteBtn {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--bluelight);
+    color: var(--bluedark);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.greenBtn {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 100%;
+    transition: 0.3s;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--bluedark);
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}

@@ -1,0 +1,66 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bluedark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginWrapper {
+    width: 70%;
+    height: 70%;
+    display: flex;
+}
+.loginLeft {
+    margin-right: 50px;
+}
+.loginLeft, .loginRight{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.loginLogo {
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--bluelight);
+    margin-bottom: 10px;
+}
+.loginDesc {
+    font-size: 24px;
+    color: var(--bluelight);
+    margin-bottom: 10px;
+}
+.loginBox{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 80%;
+    padding: 20px;
+    background-color: var(--bluelight);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.loginHead {
+    color: var(--bluedark);
+    font-size: 30px;
+}
+.loginInput {
+    outline: none;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    padding-left: 20px;
+    border: 1px solid var(--bluelight);
+}
+.loginGoogle {
+    text-align: center;
+    color: var(--bluedark);
+}
+.loginNoAccount {
+    text-align: center;
+    color: var(--bluedark);
+}
+.errorMessage {
+    color: var(--pop);
+}

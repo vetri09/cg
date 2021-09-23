@@ -1,0 +1,10 @@
+.homeContainer{
+    display: flex;
+    background-color: var(--bluelight);
+}
+
+@media only screen and (max-width: 1400px) {
+    .homeContainer {
+        flex-direction: column-reverse;
+    }
+}

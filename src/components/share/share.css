@@ -1,0 +1,84 @@
+.share{
+    border-radius: 10px;
+    background-color: var(--white);
+    max-width: 850px;
+    /* height: 165px; */
+    margin-bottom: 20px;
+}
+.shareWrapper{
+    padding: 10px;
+}
+.shareTop{
+    display: flex;
+    align-items: center;
+}
+.shareProfileImg{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+.shareInput{
+    width: 90%;
+    height: 60px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    color: var(--bluedark);
+}
+.shareHr{
+    margin: 20px 5px 10px 75px;
+    background-color: #e9e9e9;
+}
+.shareImgPreview {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+    border: 1px dashed var(--bluedark);
+}
+.shareBottom{
+    margin-left: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.shareOption{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.sharePictureInput {
+    background-color: var(--bluedark);
+    color: var(--bluelight);
+    padding: 5px;
+    border-radius: 5px;
+}
+::-webkit-file-upload-button {
+    background-color: var(--bluelight);
+    color: var(--bluedark);
+    border: none;
+    padding: 5px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.shareButton button{
+    background-color: var(--bluedark);
+    color: var(--bluelight);
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    width: 80px;
+    cursor: pointer;
+}
+.shareButton button:hover{
+    transition: 0.4s;
+    background-color: var(--bluedark);
+}

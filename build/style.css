@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+:root {
+    /* one */
+    /* --bluedark: #2E5090;
+    --bluelight: #838FBB;
+    --white: #F7F9FF;
+    --cream: #FFF7D6; */
+    /* second */
+    /* --bluedark: #FF5252;
+    --bluelight: #FFF5F3;
+    --white: #ffffff;
+    --cream: #FFF7D6; */
+    /* third */
+    --bluedark: #38686A;
+    /* --bluedark: #7851a9; */
+    /* --bluelight: #E6F4F1; */
+    --bluelight: #eef1f1;
+    --pop: #FF8946;
+    --white: #ffffff;
+    --cream: #FFF7D6;
+}

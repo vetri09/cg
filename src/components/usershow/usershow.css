@@ -1,0 +1,35 @@
+.usershow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.userProfile{
+    display: flex;
+    align-items: center;
+}
+.userShowImg{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.userShowName{
+    font-weight: 700;
+}
+.userShowFollow{
+    cursor: pointer;
+    color: var(--bluedark);
+    font-size: 15px;
+}
+@media only screen and (max-width: 1400px) {
+    .usershow {
+        display: flex;
+        flex-direction: column;
+    }
+    .userProfile {
+        display: flex;
+        flex-direction: column;
+    }
+}
