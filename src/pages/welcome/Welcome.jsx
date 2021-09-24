@@ -5,6 +5,7 @@ import { Link } from "react-router-dom"
 
 export default function Welcome() {
     return (
+        <>
         <div className="welcome">
             <div className="welcomeLeft">
                 <h1 className="welcomeHead">Welcome to ConnectGlobe!</h1>
@@ -23,5 +24,24 @@ export default function Welcome() {
                 <Imageslider slides={SliderData}/>
             </div>
         </div>
+        <div className="welcomeBottom">
+            <ul className="welcomeLink">
+                <li>About</li>
+                <li>Blog</li>
+                <li>Jobs</li>
+                <li>Help</li>
+                <li>API</li>
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Top Accounts</li>
+                <li>Hashtags</li>
+                <li>Locations</li>
+            </ul>
+            <div className="welcomeEnd">
+                <p>Made with <span className="pop">Love</span> from India</p>
+                <p>© 2021 ConnectGlobe</p>
+            </div>
+        </div>
+        </>
     )
 }

@@ -96,6 +96,9 @@ cream */
     position: relative;
     margin-right: 50px;
 }
+.icon {
+    transform: scale(1.3);
+}
 .topbarIconBadge{
     width: 15px;
     height: 15px;

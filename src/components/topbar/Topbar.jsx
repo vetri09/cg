@@ -80,7 +80,7 @@ export default function Topbar() {
                 <div className="topbarIcons">
                     <div className="topbarIconItem">
                         <Link to="/" style={{color:'var(--white)'}}>
-                            <HomeIcon />
+                            <HomeIcon className="icon"/>
                         </Link>
                         {/* <span className="topbarIconBadge">1</span> */}
                     </div>
