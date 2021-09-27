@@ -142,3 +142,34 @@
     margin-top: 5px;
     cursor: pointer;
 }
+.postContentEdit {
+    font-size: 17px;
+    outline: none;
+    /* width: 803px; */
+    width: 99%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.postImgEdit {
+    height: 450px;
+    background-color: var(--bluelight);
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.postSaveBtn {
+    background-color: var(--bluedark);
+    color: var(--bluelight);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.postImgPreview {
+    margin-bottom: 10px;
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+    border: 1px dashed var(--bluedark);
+}
